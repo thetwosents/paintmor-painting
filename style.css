@@ -1,0 +1,21 @@
+/*
+	Theme Name: Paintmor Painting Services
+	Theme URI: http://html5blank.com
+	Description: HTML5 Blank WordPress Theme
+	Version: 0.2
+	Author: Social Revolt Agency
+	Author URI: http://socialrevoltdesigns.com
+*/
+
+/*------------------------------------*\
+    MAIN
+\*------------------------------------*/
+
+/* global box-sizing */
+
+h3.widget-title {
+	display: none !important;
+}
+.panel-grid {
+	margin-bottom: 0px !important;
+}
