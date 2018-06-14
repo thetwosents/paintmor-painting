@@ -36,7 +36,7 @@
 		<?php wp_head(); ?>
 
 	</head>
-	<body <?php body_class(); ?>>
+	<body class="site-container" <?php body_class(); ?>>
 		<!-- <div class="header-top-bar-container clearfix">
         <div class="header-top-bar">
           <ul class="contact-details clearfix">

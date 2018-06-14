@@ -3423,7 +3423,7 @@ span.number.sign
 .comment-form .flex-box textarea,
 .contact-form .flex-box textarea
 {
-	height: calc(100% + 1px);
+	height: 140px;
 	resize: none;
 }
 .comment-form [type='submit'],

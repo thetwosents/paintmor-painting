@@ -70,7 +70,7 @@
   </ul>
 </div>
 
-<div class="row full-width gray padding-top-89 padding-bottom-96">
+<div class="row full-width gray padding-top-89 padding-bottom-96 page-margin-top-section">
   <div class="row">
     <h2 class="box-header">OUR PROFESSIONAL PAINTING SERVICES</h2>
     <p class="description align-center">Your time off is for you and your family. Let us handle your painting service needs.</p>
@@ -94,7 +94,7 @@
   </div>
 </div>
 
-<div class="row full-width padding-top-89 padding-bottom-96 page-margin-top-section parallax parallax-1 overlay">
+<div class="row full-width gray padding-top-89 padding-bottom-96 parallax parallax-1 overlay">
   <div class="row">
     <h2 class="box-header white">WE KNOW PAINTING. PERIOD.</h2>
     <p class="description align-center white">Let us help you turn your vision into a reality<br>using top of the line products paired with proven processes.</p>
@@ -175,7 +175,7 @@
 </div>
 
 
-<div class="row full-width gray flex-box page-margin-top-section">
+<div class="row full-width flex-box page-margin-top-section">
   <div class="column column-1-2 background-2">
     <a class="flex-hide" href="" title="Window Cleaning">
       <img src="http://placehold.it/960x750" alt="">
