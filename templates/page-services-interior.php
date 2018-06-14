@@ -65,6 +65,24 @@ get_header(); ?>
         <div class="row">
           <?php the_content(); ?>
         </div>
+        <div class="row page-margin-top">
+          <div class="column column-1-2">
+            <h4>WE GUARANTEE</h4>
+            <p class="margin-top-14">Our continuous pursuit for perfection has resulted in consistent growth each year. Our focus is to listen to our clients, understand their needs and provide the exceptional level of residential and commercial painting services.</p>
+            <p>If for any reason you aren't happy with our painting services please contact us. We will come back and correct the specific areas that didn't meet your expectations. In case you need a special painting service we are happy to fulfill every request in order to exceed your expectations.</p>
+          </div>
+          <div class="column column-1-2">
+            <h4>OUR MISSION</h4>
+            <p class="margin-top-14">Founded in 1995 we became one of the leading providers of residential and commercial painting solutions in DFW. Our mission is to:</p>
+            <ul class="list margin-top-10">
+              <li class="template-tick-1">Deliver high quality and consistent services.</li>
+              <li class="template-tick-1">Use environmentally friendly painting products.</li>
+              <li class="template-tick-1">Provide stable jobs with resonable wages.</li>
+              <li class="template-tick-1">Concentrate our resources on maintaining standards.</li>
+              <li class="template-tick-1">Make you an extremely satisfied customer.</li>
+            </ul>
+          </div>
+        </div>
         <div class="row margin-top-89">
           <h2 class="align-center green">Interested in <?php echo get_the_title(); ?>?<br>Please call now: <a href="tel:2507257052">250 725 7052</a></h2>
           <p class="description align-center margin-top-20">or send us a message</p>
