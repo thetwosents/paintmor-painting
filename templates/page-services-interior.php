@@ -47,6 +47,22 @@ get_header(); ?>
       </div>
       <div class="column column-3-4">
         <div class="row">
+        <?php 
+
+        $images = get_field('top_images');
+        $size = 'full'; // (thumbnail, medium, large, full or custom size)
+
+        if( $images ): ?>
+            <?php foreach( $images as $image ): ?>
+                <div class="column column-1-2">
+                  <a href="http://placehold.it/480x320" class="prettyPhoto cm-preload" title="">
+                    <?php echo wp_get_attachment_image( $image['ID'], $size ); ?>
+                  </a>
+                </div>
+            <?php endforeach; ?>
+        <?php endif; ?>
+        </div>
+        <div class="row">
           <?php the_content(); ?>
         </div>
         <div class="row margin-top-89">
