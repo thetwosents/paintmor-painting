@@ -31,6 +31,7 @@
         <!--fonts-->
         <link rel="stylesheet" type="text/css" href="<?php echo bloginfo('template_url'); ?>/fonts/features/style.css">
         <link rel="stylesheet" type="text/css" href="<?php echo bloginfo('template_url'); ?>/fonts/template/style.css">
+        <link rel="stylesheet" type="text/css" href="<?php echo bloginfo('template_url'); ?>/style/custom.css">
         <link rel="stylesheet" type="text/css" href="<?php echo bloginfo('template_url'); ?>/fonts/social/style.css">
 
 		<?php wp_head(); ?>

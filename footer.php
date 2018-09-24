@@ -127,7 +127,7 @@
 		<script type="text/javascript" src="<?php echo bloginfo('template_url'); ?>/js/jquery.prettyPhoto.js"></script>
 		<script type="text/javascript" src="<?php echo bloginfo('template_url'); ?>/js/jquery.qtip.min.js"></script>
 		<script type="text/javascript" src="<?php echo bloginfo('template_url'); ?>/js/jquery.blockUI.min.js"></script>
-		<script type="text/javascript" src="//maps.google.com/maps/api/js?key=YOUR_API_KEY"></script>
+		<script type="text/javascript" src="//maps.google.com/maps/api/js?key=AIzaSyD62c6tPJWeEx4Gxb_cXmLLNPxw3D0huPM"></script>
 		<script type="text/javascript" src="<?php echo bloginfo('template_url'); ?>/js/main.js"></script>
 		<script type="text/javascript" src="<?php echo bloginfo('template_url'); ?>/js/odometer.min.js"></script>
 
