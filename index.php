@@ -155,7 +155,7 @@
       </div>
       <div class="column column-1-2 align-center">
         <div class="image-wrapper">
-          <img src="https://socialrevoltdesigns.com/demo/paintmmor/wp-content/uploads/2018/06/painting-black-paint-roller.jpg" alt="" class="radius border">
+          <img src="https://socialrevoltdesigns.com/demo/paintmmor/wp-content/uploads/2018/09/square.jpg" alt="" class="radius border">
         </div>
       </div>
       <div class="column column-1-4">
