@@ -62,7 +62,7 @@ get_header(); ?>
             <?php endforeach; ?>
         <?php endif; ?>
         </div>
-        <div class="row">
+        <div class="row content">
           <?php the_content(); ?>
         </div>
         <div class="row page-margin-top">

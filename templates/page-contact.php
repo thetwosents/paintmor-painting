@@ -25,7 +25,7 @@ get_header(); ?>
             <li class="column column-1-2">
               <div class="icon features-email"></div>
               <h4>EMAIL</h4>
-              <p><a href="mailto:contact@cleanmate.com">contact@cleanmate.com</a><br><a href="mailto:chris@cleanmate.com">chris@cleanmate.com</a></p>
+              <p><a href="mailto:info@paintmorpainters.com">info@paintmorpainters.com</a><br><a href="mailto:info@paintmorpainters.com">info@cleanmate.com</a></p>
             </li>
           </ul>
           <ul class="features-list page-margin-top clearfix">
@@ -37,7 +37,7 @@ get_header(); ?>
             <li class="column column-1-2">
               <div class="icon features-map"></div>
               <h4><?php echo get_the_title(); ?> Paintmor</h4>
-              <p>745 Adelaide Street<br>Ottawa ON K1A 5Y7</p>
+              <p>McKinney, TX 75070</p>
             </li>
           </ul>
         </div>

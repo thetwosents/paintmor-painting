@@ -14,8 +14,14 @@ html body .revolution-slider {
   html body .revolution-slider .tp-parallax-wrap {
     z-index: 5 !important;
     position: relative; }
+html body .sf-menu li.current-menu-item a, html body .sf-menu li.current_page_parent a {
+  color: #0071BD; }
+html body .sf-menu li:last-child a {
+  color: #000; }
 html body .post-image {
   height: 200px;
   width: 90%;
   margin: 20px auto 0px;
   display: block; }
+html body .theme-page .content h2 {
+  margin-top: 40px; }
