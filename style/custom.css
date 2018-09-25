@@ -19,3 +19,5 @@ html body .post-image {
   width: 90%;
   margin: 20px auto 0px;
   display: block; }
+html body .theme-page .content h2 {
+  margin-top: 40px; }

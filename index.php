@@ -78,7 +78,6 @@
     <?php 
             
       $items = wp_get_nav_menu_items('Homepage Services'); 
-      $count = 0;
       ?>
 
     <div class="carousel-container margin-top-65 clearfix">
@@ -90,9 +89,9 @@
                 <div class="post-image" style="background: url('<?php echo the_post_thumbnail_url( $items[$count]->ID ); ?>') no-repeat center center; background-size: cover; -webkit-background-size: cover; -moz-background-size: cover;"></div>
               </a>
               <h4 class="box-header"><a href="<?php echo $item->url; ?>" title="House Cleaning"><?php echo $item->title; ?></a></h4>
-              <p>Interior and exterior painting services with precision for the right price.</p>
+              <p><?php echo the_post_thumbnail_url(9 ); ?>Interior and exterior painting services with precision for the right price.</p>
             </li>
-          <?php $count++; } ?>        
+          <?php } ?>        
       </ul>
       <div class="cm-carousel-pagination"></div>
     </div>
