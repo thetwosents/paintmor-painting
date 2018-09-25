@@ -74,20 +74,25 @@
   <div class="row">
     <h2 class="box-header">OUR PROFESSIONAL PAINTING SERVICES</h2>
     <p class="description align-center">Your time off is for you and your family. Let us handle your painting service needs.</p>
+
+    <?php 
+            
+      $items = wp_get_nav_menu_items('Homepage Services'); 
+      $count = 0;
+      ?>
+
     <div class="carousel-container margin-top-65 clearfix">
       <ul class="services-list horizontal-carousel clearfix page-margin-top">
-        <?php 
-            
-          $items = wp_get_nav_menu_items('Homepage Services'); 
-          foreach ($items as $item) { ?>
+
+          <?php foreach ($items as $item) { ?>
             <li class="column column-1-3">
               <a href="<?php echo $item->url; ?>">
-                <img src="http://placehold.it/600x400" alt="">
+                <div class="post-image" style="background: url('<?php echo the_post_thumbnail_url( $items[$count]->ID ); ?>') no-repeat center center; background-size: cover; -webkit-background-size: cover; -moz-background-size: cover;"></div>
               </a>
               <h4 class="box-header"><a href="<?php echo $item->url; ?>" title="House Cleaning"><?php echo $item->title; ?></a></h4>
               <p>Interior and exterior painting services with precision for the right price.</p>
             </li>
-          <?php } ?>        
+          <?php $count++; } ?>        
       </ul>
       <div class="cm-carousel-pagination"></div>
     </div>
@@ -150,7 +155,7 @@
       </div>
       <div class="column column-1-2 align-center">
         <div class="image-wrapper">
-          <img src="https://socialrevoltdesigns.com/demo/paintmmor/wp-content/uploads/2018/06/painting-black-paint-roller.jpg" alt="" class="radius border">
+          <img src="https://socialrevoltdesigns.com/demo/paintmmor/wp-content/uploads/2018/09/square.jpg" alt="" class="radius border">
         </div>
       </div>
       <div class="column column-1-4">
@@ -169,7 +174,7 @@
       </div>
     </div>
     <div class="align-center margin-top-65 padding-bottom-16">
-      <a class="more" href="?page=about" title="Learn more">Learn more</a>
+      <a class="more" href="<?php echo site_url(); ?>/about-paintmor" title="Learn more">Learn more</a>
     </div>
   </div>  
 </div>

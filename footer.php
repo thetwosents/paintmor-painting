@@ -33,7 +33,7 @@
 						<h6>ABOUT PAINTMOR</h6>
 						<p class="margin-top-23">We are a family owned and operated painting company doing business for over 10 years. We take your painting project and make them happen quickly, efficiently, and at an affordable price. Our expert staff will take care of everything you need.</p>
 						<div class="margin-top-37 padding-bottom-16">
-							<a class="more gray" href="?page=about" title="Learn more">Learn more</a>
+							<a class="more gray" href="<?php echo site_url(); ?>/about" title="Learn more">Learn more</a>
 						</div>
 					</div>
 					<div class="column column-1-4">
