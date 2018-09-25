@@ -19,6 +19,20 @@ html {
 				position: relative;
 			}
 		}
+		.sf-menu {
+			li {
+				&.current-menu-item, &.current_page_parent  {
+					a {
+						color: #0071BD;
+					}
+				}
+				&:last-child {
+					a {
+						color: #000;
+					}
+				}
+			}
+		}
 		.post-image {
 			height: 200px;
 			width: 90%;
