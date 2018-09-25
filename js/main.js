@@ -956,7 +956,7 @@ jQuery(document).ready(function($){
 	if($("#map").length)
 	{
 		//google map
-		var coordinate = new google.maps.LatLng(($("#map").data("map-center-lat") ? $("#map").data("map-center-lat") : 45.4005763), ($("#map").data("map-center-lng") ? $("#map").data("map-center-lng") : -75.6837527));
+		var coordinate = new google.maps.LatLng(($("#map").data("map-center-lat") ? $("#map").data("map-center-lat") : 32.9931897), ($("#map").data("map-center-lng") ? $("#map").data("map-center-lng") : -97.0124472));
 		var mapOptions = {
 			zoom: 16,
 			center: coordinate,
@@ -970,7 +970,7 @@ jQuery(document).ready(function($){
 		
 		map = new google.maps.Map(document.getElementById("map"),mapOptions);
 		marker = new google.maps.Marker({
-			position: new google.maps.LatLng(($("#map").data("marker-lat") ? $("#map").data("marker-lat") : 45.4005763), ($("#map").data("marker-lng") ? $("#map").data("marker-lng") : -75.6837527)),
+			position: new google.maps.LatLng(($("#map").data("marker-lat") ? $("#map").data("marker-lat") : 32.9931897), ($("#map").data("marker-lng") ? $("#map").data("marker-lng") : -97.0124472)),
 			map: map,
 			icon: new google.maps.MarkerImage("images/map_pointer.png", new google.maps.Size(100, 60), null, new google.maps.Point(50, 60))
 		});
